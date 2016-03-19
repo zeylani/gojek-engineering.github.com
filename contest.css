@@ -1,3 +1,36 @@
+#navbar-custom {
+  height: 90px;
+  background: white;
+}
+
+#navbar-custom > .container {
+  height: inherit;
+}
+
+#navbar-custom > .navbar-header {
+  height: inherit;
+}
+
+#logo {
+  height: 80px;
+}
+
+#list-tabs {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#navbar-custom .navbar-nav > .active > a, #navbar-custom .navbar-nav > .active > a:focus, #navbar-custom .navbar-nav > .active > a:hover {
+  background: white;
+  font-weight: bold;
+}
+
+#list-tabs {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .wrapper {
   text-align: center;
   font-size: 1.88vw;
