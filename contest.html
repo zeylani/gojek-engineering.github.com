@@ -49,10 +49,34 @@
     <div class='col-md-offset-2 col-md-8 wrapper'>
       <h2 class="wrapper-heading">The Game</h2>
       <hr class='wrapper-heading-bottom' />
-      <p class="content">
-        Here’s your problem statement:
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi- dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci- tation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      </p>
+      <ol class="content-list">
+        <li>You have until 9:00am on Sunday (i.e 24 hours from announcement) to submit your solution.</li>
+        <li>Your solution must be in Ruby and must be object oriented.</li>
+        <li>Your solution should be a command line application with a standard project structure expected in Ruby.</li>
+        <li>Usage of external gems/libs is only permitted for your specs eg. Test::Unit, RSpec, FactoryGirl etc.</li>
+        <li>
+          Contract for your solution
+          <ul>
+            <li>
+              It should reads from a file to obtain the seed, the filename should be passed via command 
+              line arguments
+              <br />
+              Like -> <pre style="display: inline; position: relative; bottom: 5px;">~$ ./gameoflife.rb seed.txt`</pre>
+            </li>
+            <li>It should run 50 iterations, printing the final iteration to STDOUT.</li>
+            <li>It should implement an infinite grid as per the problem statement. Limited grids will be 
+              rejected.</li>
+            <li>Sample seed and output format can be found below - 1 represents live cell and 0 represents 
+              dead cell</li>
+            <li>More examples can be found on the Wikipedia article linked to above</li>
+          </ul>
+        </li>
+        <li> Your solution should comply with the input and output file formats below - we will be verifying the output using automated tests, so if you don't stick to the format your solution will not be accepted.</li>
+        <li>Solution does not need to validate seed input data, assume it is correct.</li>
+        <li>Solution should be published on github.com</li>
+        <li>Your solution must work for an infinite grid for any set of seed data. You do not need to handle out-of-memory issues for large seed data or seed data that generate substantial changes in 50 iterations.</li>
+        <li>Unit tests are mandatory. TDD is a huge plus.</li>
+      </ol>
     </div>
 
     <div class='col-md-offset-2 col-md-8 wrapper' id="wrapper-rules">

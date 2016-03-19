@@ -61,6 +61,14 @@
   margin-bottom: 5vh;
 }
 
+.content-list {
+  text-align: left;
+}
+
+.content ol li, .content > ul li {
+  text-align: left;
+}
+
 #wrapper-entry {
   background: black;
 }
