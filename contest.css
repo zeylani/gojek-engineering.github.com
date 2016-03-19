@@ -1,0 +1,33 @@
+.wrapper {
+  text-align: center;
+  font-size: 1.88vw;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  color: #545454;
+  line-height: 2.81vw;
+}
+
+.wrapper-heading {
+  text-align: center;
+  font-weight: normal;
+  font-size: 3.12vw;
+  font-family: 'Oswald', sans-serif;
+  color: #8dc63f;
+  text-transform: uppercase;
+}
+
+.wrapper-heading-bottom {
+  height: 3px;
+  background: #a3a4a5;
+  width: 60px;
+}
+
+.content {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+#wrapper-entry {
+  background: black;
+}
