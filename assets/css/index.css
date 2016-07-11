@@ -1,0 +1,39 @@
+.main {
+  font-family: Raleway;
+}
+
+.navbar-brand {
+  font-family: Raleway;
+  color: white;
+}
+
+.navbar-fixed-top {
+  min-height: 65px;
+}
+
+.navbar-nav li a {
+   line-height: 60px;
+}
+
+.top-download {
+  width: 118px;
+  height: 35px;
+  line-height: 42px;
+  display: inline-block;
+  float: left;
+  margin-left: 0 0 0 5px;
+  vertical-align: middle;
+  padding: 0!important
+}
+
+.top-download.android {
+  width: 116px
+}
+
+.top-download img {
+  width: 100%;
+}
+
+.ripple-wrapper {
+  display:none
+}
