@@ -1,37 +1,55 @@
-.main {
-  font-family: Raleway;
+.main-logo {
+  background: url(../images/logo-gojek.svg) center center no-repeat;
+  background-size: 122px 36px;
+  height: 40px;
+  display: block;
+  text-indent: -9999px;
+  margin: 0 auto;
+  padding: 0;
 }
 
-.navbar-brand {
+.sub-text {
   font-family: Raleway;
+  font-size: 18px;
   color: white;
+  margin: 3px auto 0 auto;
+  float: none;
+  text-align: center;
 }
 
 .navbar-fixed-top {
-  min-height: 65px;
+  max-height: 65px;
 }
 
 .navbar-nav li a {
-   line-height: 60px;
+  font-family: Raleway;
+  line-height: 60px;
+  color: white;
 }
 
-.top-download {
-  width: 118px;
-  height: 35px;
-  line-height: 42px;
-  display: inline-block;
-  float: left;
-  margin-left: 0 0 0 5px;
-  vertical-align: middle;
-  padding: 0!important
+.logos {
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-.top-download.android {
-  width: 116px
+.logos img.large {
+  display: block;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
 }
 
-.top-download img {
-  width: 100%;
+.section-title {
+  font-family: Raleway;
+  color: #252525;
+  float: none;
+  text-allign: center;
+}
+
+.top-separator {
+  padding-top: 70px;
+  text-align: center;
 }
 
 .ripple-wrapper {
