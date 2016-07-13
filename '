@@ -1,0 +1,181 @@
+.main-logo {
+  background: url(../images/logo-gojek.svg) center center no-repeat;
+  background-size: 122px 36px;
+  height: 40px;
+  display: block;
+  text-indent: -9999px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.sub-text {
+  font-family: Raleway;
+  font-size: 18px;
+  color: white;
+  margin: 3px auto 0 auto;
+  float: none;
+  text-align: center;
+}
+
+.navbar-fixed-top {
+  max-height: 65px;
+}
+
+.navbar-nav li a {
+  font-family: Raleway;
+  line-height: 60px;
+  color: white;
+}
+
+.logos {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.logos img.large {
+  display: block;
+  width: 95%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+
+.section-title {
+  font-family: Raleway;
+  color: #252525;
+  float: none;
+  text-align: center;
+}
+
+.top-separator {
+  padding-top: 70px;
+  text-align: center;
+}
+
+.ripple-wrapper {
+  display:none
+}
+
+.content-format {
+  box-sizing: border-box;
+  font-family: Roboto,sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  line-height: 27.2px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+.img-wrapper {
+    background: #fff;
+    padding: 0 20px;
+}
+
+#wrapper {
+    padding-left: 0;
+}
+
+#page-content-wrapper {
+    z-index: 2;
+    width: 100%;
+    position: relative;
+}
+
+element.style {
+    height: 100%;
+    position: relative;
+    touch-action: none;
+    top: -1362px;
+    opacity: 1;
+}
+
+#home1 {
+    background: url("../images/goride-drivers.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.fp-section.fp-table, .fp-slide.fp-table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.fp-section {
+    position: relative;
+}
+
+.fp-tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.wrapper {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 0;
+}
+
+.wrapper.abs {
+    max-width: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.abs {
+    position: absolute;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+#home2 {
+    background: url("../images/goride-drivers.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
