@@ -40,6 +40,7 @@
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
+  padding-bottom: 60px;
 }
 
 .section-title {
