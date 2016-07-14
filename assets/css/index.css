@@ -70,7 +70,7 @@
 
 
 .top-separator {
-  padding-top: 70px;
+  padding-top: 60px;
   text-align: center;
 }
 
@@ -238,6 +238,7 @@ footer ul li a {
   text-transform: uppercase;
   padding-bottom: 10px;
 }
+
 .caps, .sidebar-nav li a, footer h5, footer ul li, footer ul li a {
   text-transform: uppercase;
 }
@@ -248,3 +249,73 @@ li {
   text-align: -webkit-match-parent;
 }
 
+.content {
+  width: 75%;
+  float: left;
+}
+
+main {
+  overflow: auto;
+  width: 921px;
+  margin: 0 auto;
+  color: #000;
+}
+
+main .content {
+  width: 75%;
+  float: left;
+}
+
+#careers {
+  float: left;
+  margin: 0 0 0 2em;
+  text-align: justify;
+  width: 100%;
+}
+
+#careers h2 {
+  font-size: 22px;
+  color: #111111;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid red;
+  margin-bottom: 1em;
+}
+
+#careers .role {
+    margin-bottom: 1.5em;
+}
+
+#careers p {
+    margin-top: 0.2em;
+    margin-left: 1.5em;
+    font-size: 13px;
+}
+
+#careers h3 {
+    font-size: 19px;
+    color: #111111;
+    border-left: 3px solid red;
+    padding-left: 0.4em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+#careers h4 {
+    font-size: 16px;
+    color: #111111;
+    border-left: 3px solid red;
+    padding-left: 0.4em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+
+ul.patterns, #careers .role ul.faq {
+    margin-top: 0.8em;
+    margin-left: 3.2em;
+    margin-bottom: 0.8em;
+    font-size: 13px;
+}
+
+ol, ul {
+    list-style: none;
+}
