@@ -7,6 +7,13 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/todc-bootstrap.min.css" rel="stylesheet">
     <link href='assets/css/index.css' rel='stylesheet'>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
     <title>GO-JEK Engineering</title>
     <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -56,78 +63,73 @@ ga('send', 'pageview');
           <div class="role">
             <p>We are looking for passionate full stack programmers, analysts, designers, data scientists and product managers. You can find detailed job descriptions for each role below.
             <p>GO-JEK has offices in three locations - Jakarta and Jogjakarta in Indonesia and Bangalore in India. If you’re interested in joining us, please email us at <a href="mailto:work@c42.in" class="email">work@go-jek.com</a>
+            <br><br>
             <div class="row">
               <div class="col-md-6">
-                <h4>Backend GO-JEK Engineer</h4>
-                <ul class="patterns">
-                  <li>Implement and improve business critical, high performance large scale services</li>
-                  <li>Devops and systems</li>
-                  <li>Support production</li>
-                  <li>Research</li>
-                  <li>Minimum qualifications</li>
-                  <li>Minimum 2 years server-side development experience</li>
-                  <li>Fluency in Linux</li>
-                  <li>Familiarity with languages like Ruby, Java, Go</li>
-                  <li>Knowledge of SQL and NoSQL databases</li>
-                </ul>
-              </div>
-              <div class="col-md-6">
-
-
-
-                <h4>Senior GO-JEK Engineer</h4>
-                <ul class="patterns">
-                  <li>Design and implement business critical, high performance large scale services</li>
-                  <li>Building and managing automated build/test/deployment environments</li>
-                  <li>Coaching and mentoring talented and highly motivated engineers</li>
-                  <li>Working with cross-functional teams to deliver stellar end user experience</li>
-                  <li>Working closely with the operations and customer support teams to ensure exceptional uptimes</li>
-                  <li>Working with the Product Management Team to validate and plan new features</li>
-                  <li>Research new technologies and tools that help in building the next generation of go-jek services</li>
-                  <li>Minimum 8 years of relevant development experience</li>
-                  <li>Deep knowledge of a server side technology of choice. Deep knowledge of the JVM is a plus</li>
-                  <li>Past experience in significant cross-functional engineering efforts</li>
-                  <li>Deep knowledge of Linux: CentOS, Fedora, or Ubuntu</li>
-                  <li>Experience in designing and maintaining SQL and NoSQL database schema</li>
-                  <li>Experience working with high scale distributed systems</li>
-                  <li>Ability to lead through uncertainty, chaos and a fast paced development environment</li>
-                </ul>
-              </div>
-              <div class="col-md-6">
-                <h4>Dev-Ops GO-JEK Engineer</h4>
-                <ul class="patterns">
-                  <li>Develop and setup software and tool chains that will help end to end evolution and scaling of Gojek products.
-                  <li>Passionate about automation and follow 'Infrastructure as Code'
-                  <li>Monitor and manage the high traffic infrastructure
-                  <li>Proactively setup failover and redundancy to ensure the highest availability of the systems.
-                  <li>Passionate about learning and adopting new technologies.
-                  <li>Periodic support to help in critical production deployments.  
-                  <li>Requirements
-                  <li>Solid experience in UNIX /Linux based environments and scripting skills.
-                  <li>Cloud experience, preferably in GCE
-                  <li>Experience with configuration management software (e.g., ansible, Chef)
-                  <li>Experience with monitoring systems
-                  <li>Networking knowledge of DNS, SSL, TCP/IP etc
-                  <li>In depth knowledge of networking, protocols and kernel parameters</li>
-                  <li>Experience in performance tuning and production ready setups for open source components like (Nginx, JVM, Haproxy, Redis etc).
-                  <li>Understanding  of virtualisation and containerization (e.g., Docker, Kubernetes, etc.)
-                </ul>
+                <div class="container button-padding">
+                  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#Backend">Backend GO-JEK Engineer</button>
+                  <div id="Backend" class="collapse">
+                    <ul class="patterns">
+                      <li>Implement and improve business critical, high performance large scale services</li>
+                      <li>Devops and systems</li>
+                      <li>Support production</li>
+                      <li>Research</li>
+                      <li>Minimum qualifications</li>
+                      <li>Minimum 2 years server-side development experience</li>
+                      <li>Fluency in Linux</li>
+                      <li>Familiarity with languages like Ruby, Java, Go</li>
+                      <li>Knowledge of SQL and NoSQL databases</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="container button-padding">
+                  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#Senior">Senior GO-JEK Engineer</button>
+                  <div id="Senior" class="collapse">
+                    <ul class="patterns">
+                      <li>Design and implement business critical, high performance large scale services</li>
+                      <li>Building and managing automated build/test/deployment environments</li>
+                      <li>Coaching and mentoring talented and highly motivated engineers</li>
+                      <li>Working with cross-functional teams to deliver stellar end user experience</li>
+                      <li>Working closely with the operations and customer support teams to ensure exceptional uptimes</li>
+                      <li>Working with the Product Management Team to validate and plan new features</li>
+                      <li>Research new technologies and tools that help in building the next generation of go-jek services</li>
+                      <li>Minimum 8 years of relevant development experience</li>
+                      <li>Deep knowledge of a server side technology of choice. Deep knowledge of the JVM is a plus</li>
+                      <li>Past experience in significant cross-functional engineering efforts</li>
+                      <li>Deep knowledge of Linux: CentOS, Fedora, or Ubuntu</li>
+                      <li>Experience in designing and maintaining SQL and NoSQL database schema</li>
+                      <li>Experience working with high scale distributed systems</li>
+                      <li>Ability to lead through uncertainty, chaos and a fast paced development environment</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="container button-padding">
+                  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#DevOps">Dev-Ops GO-JEK Engineer</button>
+                  <div id="DevOps" class="collapse">
+                    <ul class="patterns">
+                      <li>Develop and setup software and tool chains that will help end to end evolution and scaling of Gojek products.
+                      <li>Passionate about automation and follow 'Infrastructure as Code'
+                      <li>Monitor and manage the high traffic infrastructure
+                      <li>Proactively setup failover and redundancy to ensure the highest availability of the systems.
+                      <li>Passionate about learning and adopting new technologies.
+                      <li>Periodic support to help in critical production deployments.  
+                      <li>Solid experience in UNIX /Linux based environments and scripting skills.
+                      <li>Cloud experience, preferably in GCE
+                      <li>Experience with configuration management software (e.g., ansible, Chef)
+                      <li>Experience with monitoring systems
+                      <li>Networking knowledge of DNS, SSL, TCP/IP etc
+                      <li>In depth knowledge of networking, protocols and kernel parameters</li>
+                      <li>Experience in performance tuning and production ready setups for open source components like (Nginx, JVM, Haproxy, Redis etc).
+                      <li>Understanding  of virtualisation and containerization (e.g., Docker, Kubernetes, etc.)
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </main>
-
-    <h2>Simple Collapsible</h2>
-    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
-    <div i="demo" class="collapse">
-      <p> Random text...
-    </div>
-
-
-
-
     <footer>
       <div class="container">
         <div class="row">
