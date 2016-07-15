@@ -205,6 +205,7 @@ element.style {
 }
 
 body {
+background-color: #333;
   color: #9B9B9B;
 }
 
@@ -250,15 +251,18 @@ li {
 }
 
 .content {
+  background-color: #333;
+  color: #fff;
   width: 75%;
   float: left;
+  font-family: Roboto,sans-serif;
 }
 
 main {
   overflow: auto;
   width: 921px;
   margin: 0 auto;
-  color: #000;
+  background-color: #333;
 }
 
 main .content {
@@ -271,11 +275,13 @@ main .content {
   margin: 0 0 0 2em;
   text-align: justify;
   width: 100%;
+  color: #fff;
 }
 
 #careers h2 {
   font-size: 22px;
-  color: #111111;
+  color: #fff;
+  font-family: Roboto,sans-serif;
   padding-bottom: 0.2em;
   border-bottom: 1px solid red;
   margin-bottom: 1em;
@@ -293,7 +299,7 @@ main .content {
 
 #careers h3 {
     font-size: 19px;
-    color: #111111;
+    color: #fff;
     border-left: 3px solid red;
     padding-left: 0.4em;
     margin-bottom: 1em;
@@ -302,7 +308,7 @@ main .content {
 
 #careers h4 {
     font-size: 16px;
-    color: #111111;
+    color: #fff;
     border-left: 3px solid red;
     padding-left: 0.4em;
     margin-bottom: 1em;
@@ -318,4 +324,9 @@ ul.patterns, #careers .role ul.faq {
 
 ol, ul {
     list-style: none;
+}
+
+#careers .role ul.patterns li {
+    list-style-type: circle;
+    list-style-position: inside;
 }
