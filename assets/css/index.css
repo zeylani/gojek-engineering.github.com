@@ -266,6 +266,7 @@ main {
 main .content {
   width: 100%;
   float: left;
+  margin-bottom: 3%;
 }
 
 #careers {
@@ -275,21 +276,26 @@ main .content {
 #careers h1 {
   color: #fff;
   text-align: center;
-  font-family: Roboto,sans-serif;
+  font-family: Raleway,sans-serif;
   padding-top: 10px;
   margin-bottom: 1em;
-}
-
-#careers .role {
-  margin-bottom: 1.5em;
-  margin: auto;
-  width: 90%;
 }
 
 #careers p {
   margin-top: 0.2em;
   margin-left: 1.5em;
-  font-size: 14px;
+}
+
+.heading p {
+  font-family: Raleway;
+  font-size: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.heading p a {
+  color: grey;
+  text-decoration: none;
 }
 
 #careers h4 {
@@ -301,18 +307,24 @@ main .content {
   text-align: center;
 }
 
-ul.patterns, #careers .role ul.faq {
+.roles {
+  font-family: Raleway;
+  margin: 20px;
+}
+
+ul.patterns {
   margin-top: 0.8em;
   margin-left: 3.2em;
   margin-bottom: 0.8em;
   font-size: 14px;
+  text-align: left;
 }
 
 ol, ul {
   list-style: none;
 }
 
-#careers .role ul.patterns li {
+#careers ul.patterns li {
   list-style-type: circle;
   list-style-position: inside;
 }
