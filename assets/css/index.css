@@ -53,7 +53,7 @@
   -o-filter: grayscale(100%);
   padding-top: 20px;
   padding-bottom: 60px;
-}
+} 
 
 .section-title {
   font-family: Raleway;
@@ -75,7 +75,7 @@
 }
 
 .ripple-wrapper {
-  display:none
+  display:none;
 }
 
 .content-format {
@@ -250,72 +250,70 @@ li {
 }
 
 .content {
+  background-color: #333;
+  color: #fff;
   width: 75%;
   float: left;
+  font-family: Roboto,sans-serif;
 }
 
 main {
   overflow: auto;
-  width: 921px;
   margin: 0 auto;
-  color: #000;
+  background-color: #333;
 }
 
 main .content {
-  width: 75%;
+  width: 100%;
   float: left;
 }
 
 #careers {
   float: left;
-  margin: 0 0 0 2em;
   text-align: justify;
-  width: 100%;
 }
 
-#careers h2 {
-  font-size: 22px;
-  color: #111111;
-  padding-bottom: 0.2em;
-  border-bottom: 1px solid red;
+#careers h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto,sans-serif;
+  padding-top: 10px;
   margin-bottom: 1em;
 }
 
 #careers .role {
-    margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
+  margin: auto;
+  width: 90%;
 }
 
 #careers p {
-    margin-top: 0.2em;
-    margin-left: 1.5em;
-    font-size: 13px;
-}
-
-#careers h3 {
-    font-size: 19px;
-    color: #111111;
-    border-left: 3px solid red;
-    padding-left: 0.4em;
-    margin-bottom: 1em;
-    margin-left: 1em;
+  margin-top: 0.2em;
+  margin-left: 1.5em;
+  font-size: 14px;
 }
 
 #careers h4 {
-    font-size: 16px;
-    color: #111111;
-    border-left: 3px solid red;
-    padding-left: 0.4em;
-    margin-bottom: 1em;
-    margin-left: 2em;
+  font-size: 16px;
+  color: #fff;
+  padding-left: 0.4em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  text-align: center;
 }
 
 ul.patterns, #careers .role ul.faq {
-    margin-top: 0.8em;
-    margin-left: 3.2em;
-    margin-bottom: 0.8em;
-    font-size: 13px;
+  margin-top: 0.8em;
+  margin-left: 3.2em;
+  margin-bottom: 0.8em;
+  font-size: 14px;
 }
 
 ol, ul {
-    list-style: none;
+  list-style: none;
+}
+
+#careers .role ul.patterns li {
+  list-style-type: circle;
+  list-style-position: inside;
 }
