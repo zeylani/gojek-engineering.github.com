@@ -102,8 +102,89 @@
 
 #page-content-wrapper {
   z-index: 2;
-  width: 100%;
   position: relative;
+  padding: 65px 0 0;
+}
+
+.single-page {
+  display: block;
+  overflow: block;
+  font-size: 14px;
+}
+
+header.with-img {
+  background: url(/assets/images/header-img.jpg) center right/cover no-repeat;
+  display: block;
+  width: 100%;
+  height: 50vh;
+  max-height: 300px;
+  position: relative;
+}
+
+header.with-img .wrapper {
+  background: rgba(0,0,0,.5);
+  display: block;
+  height: 100%;
+}
+
+
+
+
+.single-page #offices {
+  position: relative;
+}
+
+.single-page #offices .office {
+  margin-bottom: 35px;
+}
+
+.normal-font {
+  font-family: Roboto,sans-serif!important;
+}
+ 
+.col-xs-9 {
+  float: left;
+}
+
+.single-page #offices .title {
+  display: block;
+  position: relative;
+  padding: 30px 45px 0;
+  background: #000;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  padding: 60px 0 60px 60px;
+  z-index: 2;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.single-page #offices .office h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.single-page #offices .office .detail, .single-page #offices .office h4 {
+  margin-bottom: 25px;
+  color: #252525;
+}
+
+.single-page #offices .office-wrapper {
+  padding: 60px 60px 0;
+  background: #fff;
+  overflow: hidden;
+}
+   
+.single-page #offices .section-title {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 3px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-family: Raleway,sans-serif;
 }
 
 element.style {
@@ -162,6 +243,11 @@ element.style {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.row:before {
+  display: table;
+  content: " ";
 }
 
 .row {
