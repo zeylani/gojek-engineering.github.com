@@ -43,6 +43,10 @@
   padding-bottom: 60px;
 }
 
+.in-front-font {
+  font-weight: bold;
+}
+
 .logos img.large1 {
   display: block;
   margin: auto ;
@@ -126,9 +130,6 @@ header.with-img .wrapper {
   display: block;
   height: 100%;
 }
-
-
-
 
 .single-page #offices {
   position: relative;
@@ -222,11 +223,10 @@ element.style {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.4);
   z-index: 0;
 }
 
-.wrapper.abs {
+.wrapper .abs {
   max-width: none;
 }
 
@@ -279,7 +279,7 @@ element.style {
 }
 
 #home2 {
-  background: url("../images/goride-header.jpg") no-repeat center center;
+  background: url("../images/goride-header.jpg") no-repeat center ; 
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
