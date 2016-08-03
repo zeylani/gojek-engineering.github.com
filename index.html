@@ -21,35 +21,28 @@ ga('send', 'pageview');
     <meta charset="utf-8">
   </head>
   <body>
-    <div class="navbar navbar-default navbar-fixed-top">
+		<header class="navbar-default navbar-static-top navbar-custom">
       <div class="container">
-        <div class="col-md-4 col-sm-4 col-xs-6 footer-menu">
+  			<div class="navbar-header">
+  				<button aria-controls="bs-navbar" aria-expanded="false" class="collapsed navbar-toggle" data-target="#bs-navbar" data-toggle="collapse" type="button">
+    				<span class="sr-only">Toggle navigation</span>
+    				<span class="icon-bar"></span>
+  	  			<span class="icon-bar"></span>
+  		  		<span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand main-logo" href="index.html">
+            <img class="img-responsive" src="assets/images/gojek-engg-logo.png" alt="Gojek Engineering Logo">
+          </a>
         </div>
-        <div class="col-md-4 col-sm-4">
-          <h1 class="main-logo"></h1>
-          <h3 class="sub-text center-block">ENGINEERING</h3>
-        </div>
-        <div class="col-md-4 col-sm-4">
-          <ul class="nav navbar-nav nav-links">
-            <li>
-              <a href="http://gojekengineering.com">HOME</a>
-            </li>
-            <li>
-              <a href="careers.html">CAREERS</a>
-            </li>
-            <!--
-            <li>
-              <a href="team.html">TEAM</a>
-              </li>
-            -->
-            <li>
-              <a href="http://blog.gojekengineering.com/">BLOG</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="top-separator"></div>
+  			<nav class="collapse navbar-collapse" id="bs-navbar">
+			  	<ul class="nav navbar-nav nav-links navbar-right">
+			  		<li><a href="index.html">Home</a></li>
+			  		<li><a href="careers.html">Careers</a></li>
+			  		<li><a href="http://blog.gojekengineering.com/">Blog</a></li>
+			  	</ul>
+		  	</nav>
+			</div>
+		</header>
     <div id="wrapper">
       <div id="page-content-wrapper" style="padding-top: 0px;">
         <div id="container" class="fp-content-container" style="height: 100%; position: relative;">
@@ -61,7 +54,7 @@ ga('send', 'pageview');
                   <div class="col-md-5 pull-right text-right obj up fadeInUp run_animation content-format" style="opacity: 1;">
                     <h2 class="section-title1 in-front-font">GO-JEK ENGINEERING</h2>
                     <p class="in-front-font">
-                    GO-JEK is the largest consumer technology company in Indonesia, the world's 4th largest market by population. 
+                    GO-JEK is the largest consumer technology company in Indonesia, the world's 4th largest market by population.
                     <p class="in-front-font">
                     With over 20 million downloads, the GO-JEK app has become the leading transport, courier, and hyperlocal shopping app in the country.
                   </div>
@@ -85,7 +78,6 @@ ga('send', 'pageview');
         </div>
       </div>
     </div>
-    </div>
     <div class="container">
       <h2 class="section-title"><b>FEATURED ON</b></h2>
       <div class="logos">
@@ -95,16 +87,14 @@ ga('send', 'pageview');
     <div class="container">
       <h2 class="section-title"><b>INVESTORS</b></h2>
       <div class="logos">
-        <img class="large1" src="assets/images/sequoia-mark-full-grey.svg" >
+        <img class="large1" alt="sequoia" src="assets/images/sequoia-mark-full-grey.svg" >
       </div>
     </div>
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-md-3 footer-menu footer-logo">
-            <h1 class="main-logo">
-              <h3 class="sub-text center-block">ENGINEERING</h3>
-            </h1>
+            <img class="img-responsive" src="assets/images/gojek-engg-logo.png" alt="Gojek Engineering Logo">
           </div>
           <div class="col-md-3 col-sm-3 col-xs-6 footer-menu">
             <ul>
@@ -115,7 +105,7 @@ ga('send', 'pageview');
           </div>
           <div class="col-md-3 col-sm-3 col-xs-6 footer-menu">
             <ul>
-              <li><i><b>Find Us On</b></i></li>
+              <li>FIND US ON</li>
               <li><a href="https://twitter.com/GojekTech?lang=id" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
             </ul>
           </div>
@@ -138,6 +128,7 @@ ga('send', 'pageview');
       </div>
       <div class="copyright">© Copyright 2016 GO-JEK Indonesia</div>
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>

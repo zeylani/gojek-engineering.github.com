@@ -1,24 +1,14 @@
 .main-logo {
-  background: url(../images/logo-gojek.svg) center center no-repeat;
-  background-size: 122px 36px;
-  height: 40px;
-  display: block;
-  text-indent: -9999px;
-  margin: 0 auto;
-  padding: 0;
+  max-width: 20%;
+  max-height: 80%;
+  height: auto;
 }
 
-.sub-text {
-  font-family: Raleway;
-  font-size: 18px;
-  color: white;
-  margin: 3px auto 0 auto;
-  float: none;
-  text-align: center;
-}
-
-.navbar-fixed-top {
-  max-height: 65px;
+.navbar-custom {
+  background-color:#000;
+  color:#ffffff;
+  border-radius:0;
+	border-bottom: 0;
 }
 
 .navbar-nav li a {
@@ -57,7 +47,7 @@
   -o-filter: grayscale(100%);
   padding-top: 20px;
   padding-bottom: 60px;
-} 
+}
 
 .section-title {
   font-family: Raleway;
@@ -106,7 +96,6 @@
 #page-content-wrapper {
   z-index: 2;
   position: relative;
-  padding: 65px 0 0;
 }
 
 .single-page {
