@@ -1,11 +1,14 @@
 .main-logo {
   max-width: 20%;
-  max-height: 80%;
   height: auto;
 }
 
+.header {
+  overflow: hidden;
+}
+
 .navbar-custom {
-  background-color:#000;
+  background-color:#242424;
   color:#ffffff;
   border-radius:0;
 	border-bottom: 0;
@@ -33,8 +36,8 @@
   padding-bottom: 60px;
 }
 
-.in-front-font {
-  font-weight: bold;
+.front-content {
+  font-family: Raleway;
 }
 
 .logos img.large1 {
@@ -130,7 +133,7 @@ header.with-img .wrapper {
 .normal-font {
   font-family: Roboto,sans-serif!important;
 }
- 
+
 .col-xs-9 {
   float: left;
 }
@@ -166,7 +169,7 @@ h4 {
   background: #fff;
   overflow: hidden;
 }
-   
+
 .single-page #offices .section-title {
   color: #fff;
   font-weight: 300;
@@ -185,7 +188,7 @@ element.style {
 }
 
 #home1 {
-  background: url("../images/goride-drivers.jpg") no-repeat center center;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../images/goride-drivers.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
@@ -267,7 +270,7 @@ element.style {
 }
 
 #home2 {
-  background: url("../images/goride-header.jpg") no-repeat center ; 
+  background: url("../images/goride-header.jpg") no-repeat center ;
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
