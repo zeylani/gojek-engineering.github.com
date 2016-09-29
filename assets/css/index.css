@@ -346,6 +346,20 @@ main .content {
   margin-bottom: 3%;
 }
 
+#events {
+  text-align: justify;
+  font-size: 20px;
+  padding-bottom: 270px;
+}
+
+#events h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Raleway,sans-serif;
+  padding-top: 10px;
+  margin-bottom: 1em;
+}
+
 #careers {
   text-align: justify;
 }
