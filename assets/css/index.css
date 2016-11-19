@@ -7,25 +7,42 @@
  * Footer links - #9B9B9B
  */
 
-.main-logo {
-  max-width: 20%;
+.logo-container {
   height: auto;
 }
 
-.header {
-  overflow: hidden;
+.main-logo {
+  width: 70%;
+}
+
+.hamburger {
+  margin-top: 22px;
+}
+
+/*.header {
+overflow: hidden;
+}*/
+
+/* overriding the default */
+.navbar-default .navbar-collapse {
+  border-color: black;
 }
 
 .navbar-custom {
-  background-color:#242424;
-  color:#ffffff;
-  border-radius:0;
-	border-bottom: 0;
+  background-color: #242424;
+  color: #ffffff;
+  border: 0 none;
+  margin-bottom: 0;
 }
 
-.navbar-nav li a {
+.navbar-default .navbar-nav > li > a {
   font-family: Raleway;
-  line-height: 60px;
+  color: #aeaeae;
+  line-height: 68px;
+  font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
   color: white;
 }
 
@@ -330,7 +347,6 @@ footer ul li a {
 }
 
 li {
-  padding-bottom: 10px;
   display: list-item;
   text-align: -webkit-match-parent;
 }
@@ -436,4 +452,29 @@ ol, ul {
 
 .button-padding {
   margin-bottom: 10px;
+}
+
+/**
+* Media Queries
+*/
+@media (min-width: 576px) {
+  .main-logo {
+    width: auto;
+  }
+
+  .hamburger {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
 }
